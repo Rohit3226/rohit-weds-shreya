@@ -35,7 +35,7 @@ const weddingEvents = [
     venue: "Fortune Resort & Gardens, Bhopal",
     category: "welcome",
     summary: "Settle in, freshen up, and get ready for three wonderful days together.",
-    details: ["Resort name: Fortune Resort & Gardens", "Address: Bairagarh Kalan, Bairagarh, Bhopal – 462030, Madhya Pradesh", "Room allocation: To be announced", "Reception desk details: To be announced"],
+    details: ["<strong>Resort Name:</strong> Fortune Resort & Gardens", "Address: Bairagarh Kalan, Bairagarh, Bhopal – 462030, Madhya Pradesh", "Room allocation: To be announced", "Reception desk details: To be announced"],
     map: "https://maps.app.goo.gl/9rPVQdmpCpWCATGD6",
     mapLabel: "Open Fortune Resort & Gardens map"
   },
