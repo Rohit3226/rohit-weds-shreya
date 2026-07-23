@@ -19,8 +19,14 @@ a { color: inherit; }
 .skip-link { position: absolute; left: -9999px; top: auto; }
 .skip-link:focus { left: 1rem; top: 1rem; z-index: 20; padding: .8rem 1rem; background: #fff; border-radius: 5px; }
 .site-header { display: flex; align-items: center; justify-content: space-between; width: min(1210px, calc(100% - 3rem)); margin: 0 auto; padding: 1.25rem 0; }
-.wordmark { color: var(--ink); text-decoration: none; font: 700 2rem/1 var(--serif); letter-spacing: -.08em; }
-.wordmark span, .footer-monogram span { color: var(--wine); font-style: italic; margin: 0 .1em; }
+.wordmark { display: inline-flex; align-items: center; color: var(--ink); text-decoration: none; }
+.footer-monogram span { color: var(--wine); font-style: italic; margin: 0 .1em; }
+.rs-badge { display: block; }
+.rs-badge--header { width: 42px; height: 42px; color: var(--wine); transition: transform .25s ease, color .25s ease; }
+.wordmark:hover .rs-badge--header { color: var(--ink); transform: rotate(8deg); }
+.hero-emblem { position: relative; z-index: 2; width: 84px; height: 84px; margin: 0 0 1.5rem; }
+.hero-emblem::before { content: ""; position: absolute; inset: -10px; border-radius: 50%; background: radial-gradient(circle, rgba(20, 8, 34, .55) 0%, rgba(20, 8, 34, 0) 72%); }
+.rs-badge--hero { position: relative; width: 100%; height: 100%; color: var(--gold-light); filter: drop-shadow(0 6px 14px rgba(8, 3, 16, .35)); }
 .site-header nav { display: flex; gap: 1.5rem; }
 .site-header nav a, .back-link { color: var(--ink); font-size: .8rem; text-decoration: none; text-transform: uppercase; letter-spacing: .11em; font-weight: 700; }
 .site-header nav a:hover, .back-link:hover, .text-link:hover { color: var(--wine); }
