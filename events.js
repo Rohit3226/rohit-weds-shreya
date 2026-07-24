@@ -13,7 +13,7 @@ const weddingEvents = [
     map1: "https://maps.app.goo.gl/dSaFnCo6ekKPRaWr9",
     mapLabel: "Open Secunderabad Jn map",
     map2: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
-    mapLabel2: "Open Bhopal Jn map",
+    mapLabel2: "Open Bhopal Jn map"
   },
   {
     id: "bhopal-arrival",
