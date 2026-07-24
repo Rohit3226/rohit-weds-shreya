@@ -10,10 +10,10 @@ const weddingEvents = [
     category: "journey",
     summary: "We set off together for Bhopal on Train 22691.",
     details: ["<strong>Train number:</strong> 22691", "<strong>Boarding time:</strong> 7:10 AM", "<strong>Coach number:</strong> To be announced", "<strong>Seat numbers:</strong> To be announced"],
-    map: "https://maps.app.goo.gl/dSaFnCo6ekKPRaWr9",
+    map1: "https://maps.app.goo.gl/dSaFnCo6ekKPRaWr9",
     mapLabel: "Open Secunderabad Jn map",
-    map1: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
-    mapLabel1: "Open Bhopal Jn map"
+    map2: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
+    mapLabel2: "Open Bhopal Jn map",
   },
   {
     id: "bhopal-arrival",
