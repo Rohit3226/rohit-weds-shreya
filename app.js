@@ -93,7 +93,7 @@
           <aside class="help-panel">
             <p class="eyebrow">Need a hand?</p>
             <h3>We are only a call away.</h3>
-            <p>For travel questions or event-day assistance, contact Raghunath.</p>
+            <p>For any questions about the wedding schedule, venues, events or travel.</p>
             <a href="tel:+919866581502">Call Raghunath · +91 98665 81502</a>
           </aside>
         </section>`;
