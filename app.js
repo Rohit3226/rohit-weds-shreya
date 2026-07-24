@@ -1,4 +1,10 @@
 (function () {
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    });
+  }
+
   const eventMarkup = (event) => {
     const theme = eventThemes[event.category];
     return `
