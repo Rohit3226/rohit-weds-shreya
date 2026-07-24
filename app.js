@@ -71,7 +71,7 @@
       document.title = `${event.title} | Rohit & Shreya`;
       const map = event.map
         ? `<a class="button button-outline" href="${event.map}" target="_blank" rel="noopener">${event.mapLabel} <span aria-hidden="true">↗</span></a>`
-        : `<span class="status-pill large">Exact venue map to be announced</span>`;
+        : `<span class="status-pill large">${event.venue}</span>`;
       eventContent.innerHTML = `
         <section class="event-hero theme-${event.category}">
           <div class="event-hero-art" aria-hidden="true">${theme.symbol}</div>

@@ -60,7 +60,6 @@ const weddingEvents = [
     category: "haldi",
     summary: "Sunshine, laughter, and a joyful splash of haldi by the pool",
     details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
-    mapLabel: "Pool side"
   },
   {
     id: "lunch-28",
@@ -211,7 +210,7 @@ const weddingEvents = [
     date: "Wednesday, 30 December 2026",
     time: "4:00 PM",
     title: "Rooms check-out",
-    venue: "Wedding resort, Bhopal",
+    venue: "Heading back home",
     category: "welcome",
     summary: "Please complete room check-out before the return journey",
     details: ["<strong>Check-out time:</strong> 4:00 PM", "<strong>Luggage coordination:</strong> To be announced"],
