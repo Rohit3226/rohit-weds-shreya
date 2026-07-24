@@ -60,6 +60,7 @@ const weddingEvents = [
     category: "haldi",
     summary: "Sunshine, laughter, and a joyful splash of haldi by the pool",
     details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
+    mapLabel: "Pool side"
   },
   {
     id: "lunch-28",
