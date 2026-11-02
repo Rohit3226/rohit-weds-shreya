@@ -9,7 +9,23 @@ const weddingEvents = [
     venue: "Secunderabad Jn Railway Station",
     category: "journey",
     summary: "We set off together for Bhopal on Train 22691",
-    details: ["<strong>Train number:</strong> 22691", "<strong>Boarding time:</strong> 7:10 AM", "<strong>Coach number:</strong> To be announced", "<strong>Seat numbers:</strong> To be announced"],
+    details: [
+      "<strong>Train number:</strong> 22691",
+      "<strong>Boarding time:</strong> 7:10 AM",
+      "<strong>Coach number:</strong> B8",
+      "<strong>Passenger details:</strong>",
+      "<div>Vijayalaxmi K S - 44 (L)</div>",
+      "<div>Balaji Rao K - 41 (L)</div>",
+      "<div>Venugopal Kosigi Shroff - 36 (L)</div>",
+      "<div>Nalini Kosigi Shroff - 33 (L)</div>",
+      "<div>Raghunath Kosigi Shroff - 34 (M)</div>",
+      "<div>Rohit Kosigi Shroff - 40 (SU)</div>",
+      "<div>Ritika Kosigi Shroff - 37 (M)</div>",
+      "<div>Abhiram K S - 43 (U)</div>",
+      "<div>Neeraja K S - 46 (U)</div>",
+      "<div>Sasikala Srivatsa - 42 (M)</div>",
+      "<div>Srivatsa Harohali - 45 (M)</div>"
+    ],
     map: "https://maps.app.goo.gl/dSaFnCo6ekKPRaWr9",
     mapLabel: "Open Secunderabad Jn map"
   },
@@ -22,7 +38,12 @@ const weddingEvents = [
     venue: "Bhopal Jn Railway Station",
     category: "journey",
     summary: "Train 22691 reaches Bhopal Jn at 8:55 PM. Rooms will be ready for check-in from 9:00 PM",
-    details: ["<strong>Arrival station:</strong> Bhopal Jn", "<strong>Arrival time:</strong> 8:55 PM", "<strong>Rooms check-in:</strong> from 9:00 PM", "<strong>Resort details:</strong> Fortune Resort & Gardens"],
+    details: [
+      "<strong>Arrival station:</strong> Bhopal Jn",
+      "<strong>Arrival time:</strong> 8:55 PM",
+      "<strong>Rooms check-in:</strong> from 9:00 PM",
+      "<strong>Resort details:</strong> Fortune Resort & Gardens"
+    ],
     map: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
     mapLabel: "Open Bhopal Jn map"
   },
@@ -35,7 +56,12 @@ const weddingEvents = [
     venue: "Fortune Resort & Gardens, Bhopal",
     category: "welcome",
     summary: "Settle in, freshen up, and get ready for three wonderful days together",
-    details: ["<strong>Resort Name:</strong> Fortune Resort & Gardens", "<strong>Address:</strong> Bairagarh Kalan, Bairagarh, Bhopal – 462030, Madhya Pradesh", "<strong>Room allocation:</strong> To be announced", "<strong>Reception desk details:</strong> To be announced"],
+    details: [
+      "<strong>Resort Name:</strong> Fortune Resort & Gardens",
+      "<strong>Address:</strong> Bairagarh Kalan, Bairagarh, Bhopal – 462030, Madhya Pradesh",
+      "<strong>Room allocation:</strong> To be announced",
+      "<strong>Reception desk details:</strong> To be announced"
+    ],
     map: "https://maps.app.goo.gl/9rPVQdmpCpWCATGD6",
     mapLabel: "Open Fortune Resort & Gardens map"
   },
@@ -48,7 +74,10 @@ const weddingEvents = [
     venue: "Banquet hall dining area",
     category: "dining",
     summary: "A relaxed breakfast before the festivities begin",
-    details: ["<strong>Dress code:</strong> To be announced", "<strong>Please arrive on time so the day can begin together</strong>"],
+    details: [
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Please arrive on time so the day can begin together</strong>"
+    ],
   },
   {
     id: "haldi-carnival",
@@ -59,7 +88,11 @@ const weddingEvents = [
     venue: "Pool side",
     category: "haldi",
     summary: "Sunshine, laughter, and a joyful splash of haldi by the pool",
-    details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
+    details: [
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced"
+    ],
   },
   {
     id: "lunch-28",
@@ -70,7 +103,10 @@ const weddingEvents = [
     venue: "Banquet hall dining area",
     category: "dining",
     summary: "A delicious break between the day's celebrations",
-    details: ["<strong>Dress code:</strong> To be announced", "<strong>Please arrive on time</strong>"],
+    details: [
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Please arrive on time</strong>"
+    ],
   },
   {
     id: "mehendi",
@@ -81,7 +117,11 @@ const weddingEvents = [
     venue: "Pool side",
     category: "mehendi",
     summary: "An afternoon of intricate henna, music, and warm conversations",
-    details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
+    details: [
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced"
+    ],
   },
   {
     id: "sangeet",
@@ -92,7 +132,12 @@ const weddingEvents = [
     venue: "Banquet hall",
     category: "sangeet",
     summary: "An evening of music, dance, celebration, and dinner under glittering lights",
-    details: ["<strong>Dinner will be served during the Sangeet function</strong>", "<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Performance details:</strong> To be announced"],
+    details: [
+      "<strong>Dinner will be served during the Sangeet function</strong>",
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Performance details:</strong> To be announced"
+    ],
   },
   {
     id: "breakfast-29",
@@ -103,7 +148,10 @@ const weddingEvents = [
     venue: "Banquet hall dining area",
     category: "dining",
     summary: "Begin the second day of celebrations over breakfast",
-    details: ["<strong>Dress code:</strong> To be announced", "<strong>Please arrive on time</strong>"],
+    details: [
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Please arrive on time</strong>"
+    ],
   },
   {
     id: "varapooja",
@@ -114,7 +162,11 @@ const weddingEvents = [
     venue: "Banquet hall",
     category: "pooja",
     summary: "A meaningful ceremony bringing both families together",
-    details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
+    details: [
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced"
+    ],
   },
   {
     id: "lunch-29",
@@ -125,7 +177,10 @@ const weddingEvents = [
     venue: "Banquet hall dining area",
     category: "dining",
     summary: "Let's enjoy a delicious afternoon before the evening celebrations begin",
-    details: ["<strong>Dress code:</strong> To be announced", "<strong>Please arrive on time</strong>"],
+    details: [
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Please arrive on time</strong>"
+    ],
   },
   {
     id: "baraat",
@@ -136,7 +191,11 @@ const weddingEvents = [
     venue: "Main entrance of the resort",
     category: "baraat",
     summary: "The celebration unfolds in a vibrant symphony of music, colour, laughter, and unforgettable moments",
-    details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
+    details: [
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced"
+    ],
   },
   {
     id: "reception",
@@ -147,7 +206,12 @@ const weddingEvents = [
     venue: "Open sky lawn",
     category: "reception",
     summary: "An open-air evening celebrating the togetherness of Rohit and Shreya, followed by a delightful dinner",
-    details: ["<strong>Dinner will be served during the reception function</strong>", "<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
+    details: [
+      "<strong>Dinner will be served during the reception function</strong>",
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced"
+    ],
   },
   {
     id: "kashi-yatra",
@@ -158,7 +222,12 @@ const weddingEvents = [
     venue: "Marriage banquet hall",
     category: "pooja",
     summary: "The wedding day begins with cherished rituals and blessings",
-    details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced", "<strong>Please arrive a few minutes early for the rituals</strong>"],
+    details: [
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced",
+      "<strong>Please arrive a few minutes early for the rituals</strong>"
+    ],
   },
   {
     id: "muhurtam",
@@ -169,7 +238,12 @@ const weddingEvents = [
     venue: "Marriage banquet hall",
     category: "muhurtam",
     summary: "The auspicious moment when Rohit and Shreya begin their new chapter together",
-    details: ["<strong>Muhurtam:</strong> 7:55 AM IST", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced", "<strong>Please be seated before the ceremony begins</strong>"],
+    details: [
+      "<strong>Muhurtam:</strong> 7:55 AM IST",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced",
+      "<strong>Please be seated before the ceremony begins</strong>"
+    ],
   },
   {
     id: "breakfast-30",
@@ -180,7 +254,10 @@ const weddingEvents = [
     venue: "Banquet hall dining area",
     category: "dining",
     summary: "Take a moment to relax and enjoy a delightful breakfast before the celebrations continue",
-    details: ["<strong>Dress code:</strong> To be announced", "<strong>Please arrive on time</strong>"],
+    details: [
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Please arrive on time</strong>"
+    ],
   },
   {
     id: "homam",
@@ -191,7 +268,11 @@ const weddingEvents = [
     venue: "Banquet hall",
     category: "pooja",
     summary: "A beautiful morning where sacred traditions, heartfelt blessings, and the promise of forever come together",
-    details: ["<strong>Event theme:</strong> To be announced", "<strong>Dress code:</strong> To be announced", "<strong>Event/ Program details:</strong> To be announced"],
+    details: [
+      "<strong>Event theme:</strong> To be announced",
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event/ Program details:</strong> To be announced"
+    ],
   },
   {
     id: "lunch-30",
@@ -202,7 +283,10 @@ const weddingEvents = [
     venue: "Banquet hall dining area",
     category: "dining",
     summary: "A delightful farewell meal before check-out and the journey home",
-    details: ["<strong>Dress code:</strong> To be announced", "<strong>Please arrive on time</strong>"],
+    details: [
+      "<strong>Dress code:</strong> To be announced",
+      "<strong>Please arrive on time</strong>"
+    ],
   },
   {
     id: "checkout",
@@ -213,7 +297,10 @@ const weddingEvents = [
     venue: "Heading back home",
     category: "welcome",
     summary: "Please complete room check-out before the return journey",
-    details: ["<strong>Check-out time:</strong> 4:00 PM", "<strong>Luggage coordination:</strong> To be announced"],
+    details: [
+      "<strong>Check-out time:</strong> 4:00 PM",
+      "<strong>Luggage coordination:</strong> To be announced"
+    ],
   },
   {
     id: "return-train",
@@ -224,7 +311,22 @@ const weddingEvents = [
     venue: "Bhopal Jn Railway Station",
     category: "journey",
     summary: "We board Train 12589 for the journey back to Charlapalli/ Cherlapally",
-    details: ["<strong>Train number:</strong> 12589", "<strong>Departure time:</strong> 9:00 PM", "<strong>Coach number:</strong> To be announced", "<strong>Seat numbers:</strong> To be announced"],
+    details: [
+      "<strong>Train number:</strong> 12589",
+      "<strong>Departure time:</strong> 9:00 PM",
+      "<strong>Coach numbers:</strong> A1 & A2",
+      "<strong>Passenger details:</strong>",
+      "<strong>Coach A1</strong>",
+      "<div>Sudhakar K S - 1 (L)</div>",
+      "<div>Chandrika Sudhakar - 3 (L)</div>",
+      "<strong>Coach A2</strong>",
+      "<div>Vijayalaxmi K S - 21 (L)</div>",
+      "<div>Balaji Rao K - 24 (SU)</div>",
+      "<div>Venugopal Kosigi Shroff - 27 (L)</div>",
+      "<div>Nalini Kosigi Shroff - 29 (SL)</div>",
+      "<div>Raghunath Kosigi Shroff - 22 (U)</div>",
+      "<div>Ritika Kosigi Shroff - 28 (U)</div>"
+    ],
     map: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
     mapLabel: "Open Bhopal Jn map"
   },
@@ -237,7 +339,11 @@ const weddingEvents = [
     venue: "Charlapalli/ Cherlapally Railway Station",
     category: "journey",
     summary: "Train 12589 arrives at Charlapalli/ Cherlapally, marking the perfect conclusion to our wedding celebrations",
-    details: ["<strong>Arrival station:</strong> Charlapalli/ Cherlapally Railway Station", "<strong>Arrival time:</strong> 1:30 PM", "<strong>Thank you for being part of our celebrations</strong>"],
+    details: [
+      "<strong>Arrival station:</strong> Charlapalli/ Cherlapally Railway Station",
+      "<strong>Arrival time:</strong> 1:30 PM",
+      "<strong>Thank you for being part of our celebrations</strong>"
+    ],
     map: "https://maps.app.goo.gl/GBfrULoSmMxC1pWL6",
     mapLabel: "Open Charlapalli/ Cherlapally station map"
   }
