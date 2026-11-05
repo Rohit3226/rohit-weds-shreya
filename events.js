@@ -351,7 +351,7 @@ const weddingEvents = [
 
       // IndiGo 6E-6063
       { name: "Ammamma", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3D" },
-      { name: "Avva", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3C" },
+      { name: "Jayasree - MIL", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3C" },
       { name: "Sudhindranath Neela", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3E" },
       { name: "Jayasree Neela", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3F" },
       { name: "Anand kakka", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
