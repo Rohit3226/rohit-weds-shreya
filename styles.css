@@ -202,7 +202,7 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
 
 .passenger-table {
   width: 100%;
-  min-width: 900px;
+  min-width: 1180px;
   border-collapse: collapse;
   background: #fffdf8;
   font-size: .84rem;
@@ -233,14 +233,20 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
 
 .passenger-table th:nth-child(2),
 .passenger-table th:nth-child(3),
+.passenger-table th:nth-child(4),
 .passenger-table th:nth-child(5),
 .passenger-table th:nth-child(6),
 .passenger-table th:nth-child(7),
+.passenger-table th:nth-child(8),
+.passenger-table th:nth-child(9),
 .passenger-table td:nth-child(2),
 .passenger-table td:nth-child(3),
+.passenger-table td:nth-child(4),
 .passenger-table td:nth-child(5),
 .passenger-table td:nth-child(6),
-.passenger-table td:nth-child(7) {
+.passenger-table td:nth-child(7),
+.passenger-table td:nth-child(8),
+.passenger-table td:nth-child(9) {
   text-align: center;
   white-space: nowrap;
 }

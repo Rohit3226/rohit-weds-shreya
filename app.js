@@ -33,8 +33,10 @@
             <thead>
               <tr>
                 <th scope="col">Train / Flight</th>
-                <th scope="col">Date</th>
-                <th scope="col">Time</th>
+                <th scope="col">Departure Date</th>
+                <th scope="col">Departure Time</th>
+                <th scope="col">Arrival Date</th>
+                <th scope="col">Arrival Time</th>
                 <th scope="col">Passenger Name</th>
                 <th scope="col">Coach</th>
                 <th scope="col">Seat No.</th>
@@ -45,8 +47,10 @@
               ${passengers.map((passenger) => `
                 <tr>
                   <td>${escapeHTML(passenger.transport || "—")}</td>
-                  <td>${escapeHTML(passenger.date || "—")}</td>
-                  <td>${escapeHTML(passenger.time || "—")}</td>
+                  <td>${escapeHTML(passenger.departureDate || "—")}</td>
+                  <td>${escapeHTML(passenger.departureTime || "—")}</td>
+                  <td>${escapeHTML(passenger.arrivalDate || "—")}</td>
+                  <td>${escapeHTML(passenger.arrivalTime || "—")}</td>
                   <td>${escapeHTML(passenger.name)}</td>
                   <td>${escapeHTML(passenger.coach || "—")}</td>
                   <td>${escapeHTML(passenger.seat || "—")}</td>
