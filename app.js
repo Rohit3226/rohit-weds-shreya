@@ -64,6 +64,48 @@
     `;
   };
 
+  const roomTableMarkup = (roomFloors) => {
+    if (!Array.isArray(roomFloors) || roomFloors.length === 0) return "";
+
+    const rooms = roomFloors.flatMap(({ floor, start, end }) =>
+      Array.from({ length: end - start + 1 }, (_, index) => ({
+        floor,
+        roomNo: start + index
+      }))
+    );
+
+    return `
+      <section class="room-section" aria-labelledby="room-heading">
+        <h3 class="room-heading" id="room-heading">Room Allocation &amp; Check-in Details</h3>
+        <p class="room-note">Guest names and check-in/check-out timings can be filled in as allocations are confirmed.</p>
+        <div class="room-table-wrapper">
+          <table class="room-table">
+            <thead>
+              <tr>
+                <th scope="col">Floor</th>
+                <th scope="col">Room No.</th>
+                <th scope="col">Guest</th>
+                <th scope="col">Check-in Date &amp; Time</th>
+                <th scope="col">Check-out Date &amp; Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rooms.map((room) => `
+                <tr>
+                  <td>${escapeHTML(room.floor)}</td>
+                  <td>${escapeHTML(room.roomNo)}</td>
+                  <td>—</td>
+                  <td>—</td>
+                  <td>—</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    `;
+  };
+
   const journeyList = document.querySelector("#journey-list");
   if (journeyList) {
     const days = [...new Set(weddingEvents.map((event) => event.day))];
@@ -140,6 +182,7 @@
             <h2>Everything you need for this moment</h2>
             ${event.passengers && event.passengers.length ? "" : `<ul class="detail-list">${event.details.map((detail) => `<li>${detail}</li>`).join("")}</ul>`}
             ${passengerTableMarkup(event.passengers)}
+            ${roomTableMarkup(event.roomFloors)}
             <div class="detail-actions">${map}</div>
           </div>
           <aside class="help-panel">

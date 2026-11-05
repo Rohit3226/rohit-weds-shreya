@@ -185,6 +185,66 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
 
 
+/* Room allocation table */
+.room-section {
+  width: 100%;
+  margin: 2rem 0 1.8rem;
+}
+
+.room-heading {
+  margin: 0 0 .55rem;
+  color: var(--ink);
+  font: 700 1.8rem/1.1 var(--serif);
+}
+
+.room-note {
+  margin: 0 0 1.1rem;
+  color: var(--ink-soft);
+  font-size: .84rem;
+}
+
+.room-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  background: #fffdf8;
+}
+
+.room-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  background: #fffdf8;
+  font-size: .84rem;
+  text-align: left;
+}
+
+.room-table th {
+  padding: .85rem .75rem;
+  background: #efe2c8;
+  color: var(--wine);
+  font-size: .68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .045em;
+  white-space: nowrap;
+}
+
+.room-table td {
+  padding: .72rem .75rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  vertical-align: top;
+}
+
+.room-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.room-table tbody tr:nth-child(even) {
+  background: rgba(239, 226, 200, .22);
+}
+
 /* Unified passenger travel table */
 .passenger-section {
   width: 100%;

@@ -77,8 +77,12 @@ const weddingEvents = [
     details: [
       "<strong>Resort Name:</strong> Fortune Resort & Gardens",
       "<strong>Address:</strong> Bairagarh Kalan, Bairagarh, Bhopal – 462030, Madhya Pradesh",
-      "<strong>Room allocation:</strong> To be announced",
+      "<strong>Room allocation:</strong> Rooms 201–220 on the 2nd floor and 301–320 on the 3rd floor. Guest-wise allocation is listed below.",
       "<strong>Reception desk details:</strong> To be announced"
+    ],
+    roomFloors: [
+      { floor: "2nd Floor", start: 201, end: 220 },
+      { floor: "3rd Floor", start: 301, end: 320 }
     ],
     map: "https://maps.app.goo.gl/9rPVQdmpCpWCATGD6",
     mapLabel: "Open Fortune Resort & Gardens map"
