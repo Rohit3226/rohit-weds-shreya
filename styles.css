@@ -181,7 +181,7 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
 
 
-/* Passenger details tables */
+/* Unified passenger travel table */
 .passenger-section {
   width: 100%;
   margin: 2rem 0 1.8rem;
@@ -193,57 +193,54 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
   font: 700 1.8rem/1.1 var(--serif);
 }
 
-.passenger-coach {
-  margin-bottom: 1.5rem;
+.passenger-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
   border: 1px solid var(--line);
   background: #fffdf8;
 }
 
-.passenger-coach h4 {
-  margin: 0;
-  padding: .8rem 1rem;
-  background: #efe2c8;
-  color: var(--plum);
-  font-size: .9rem;
-  font-weight: 700;
-  letter-spacing: .06em;
-}
-
-.passenger-table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-}
-
 .passenger-table {
   width: 100%;
+  min-width: 900px;
   border-collapse: collapse;
   background: #fffdf8;
-  font-size: .88rem;
+  font-size: .84rem;
   text-align: left;
 }
 
 .passenger-table th {
-  padding: .85rem .8rem;
-  background: #f4ead8;
+  padding: .85rem .75rem;
+  background: #efe2c8;
   color: var(--wine);
-  font-size: .72rem;
+  font-size: .68rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: .06em;
+  letter-spacing: .045em;
+  white-space: nowrap;
 }
 
 .passenger-table td {
-  padding: .8rem;
+  padding: .78rem .75rem;
   border-bottom: 1px solid var(--line);
   color: var(--ink);
+  vertical-align: top;
 }
 
 .passenger-table tbody tr:last-child td {
   border-bottom: 0;
 }
 
-.passenger-table th:not(:first-child),
-.passenger-table td:not(:first-child) {
+.passenger-table th:nth-child(2),
+.passenger-table th:nth-child(3),
+.passenger-table th:nth-child(5),
+.passenger-table th:nth-child(6),
+.passenger-table th:nth-child(7),
+.passenger-table td:nth-child(2),
+.passenger-table td:nth-child(3),
+.passenger-table td:nth-child(5),
+.passenger-table td:nth-child(6),
+.passenger-table td:nth-child(7) {
   text-align: center;
   white-space: nowrap;
 }
@@ -252,7 +249,7 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
   background: #f8f0e3;
 }
 
-/* Ensure the decorative detail-list star never appears inside these tables. */
+/* Keep decorative detail-list markers out of table cells. */
 .passenger-table tr::before,
 .passenger-table td::before,
 .passenger-table th::before {
@@ -270,6 +267,6 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
 
   .passenger-table th,
   .passenger-table td {
-    padding: .7rem .5rem;
+    padding: .7rem .55rem;
   }
 }
