@@ -332,14 +332,51 @@ const weddingEvents = [
     summary: "We board Train 12589 for the journey back to Charlapalli/ Cherlapally",
     details: [],
     passengers: [
-      { name: "Sudhakar K S", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A1", seat: "1", berth: "L" },
-      { name: "Chandrika Sudhakar", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A1", seat: "3", berth: "L" },
-      { name: "Vijayalaxmi K S", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A2", seat: "21", berth: "L" },
-      { name: "Balaji Rao K", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A2", seat: "24", berth: "SU" },
-      { name: "Venugopal Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A2", seat: "27", berth: "L" },
-      { name: "Nalini Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A2", seat: "29", berth: "SL" },
-      { name: "Raghunath Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A2", seat: "22", berth: "U" },
-      { name: "Ritika Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "", arrivalTime: "", coach: "A2", seat: "28", berth: "U" }
+      // Existing eight passengers on Train 12589
+      { name: "Sudhakar K S", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A1", seat: "1", berth: "L" },
+      { name: "Chandrika Sudhakar", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A1", seat: "3", berth: "L" },
+      { name: "Vijayalaxmi K S", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A2", seat: "21", berth: "L" },
+      { name: "Balaji Rao K", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A2", seat: "24", berth: "SU" },
+      { name: "Venugopal Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A2", seat: "27", berth: "L" },
+      { name: "Nalini Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A2", seat: "29", berth: "SL" },
+      { name: "Raghunath Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A2", seat: "22", berth: "U" },
+      { name: "Ritika Kosigi Shroff", transport: "Train 12589", departureDate: "30 Dec 2026", departureTime: "21:00", arrivalDate: "31 Dec 2026", arrivalTime: "13:30", coach: "A2", seat: "28", berth: "U" },
+
+      // Train 12648
+      { name: "Sasikala Srivatsa", transport: "Train 12648", departureDate: "30 Dec 2026", departureTime: "17:05", arrivalDate: "31 Dec 2026", arrivalTime: "08:20", coach: "A1", seat: "51", berth: "SL" },
+      { name: "Srivatsa Harohali", transport: "Train 12648", departureDate: "30 Dec 2026", departureTime: "17:05", arrivalDate: "31 Dec 2026", arrivalTime: "08:20", coach: "A1", seat: "47", berth: "SL" },
+      { name: "Abhiram K S", transport: "Train 12648", departureDate: "30 Dec 2026", departureTime: "17:05", arrivalDate: "31 Dec 2026", arrivalTime: "08:20", coach: "A1", seat: "48", berth: "SU" },
+      { name: "Neeraja K S", transport: "Train 12648", departureDate: "30 Dec 2026", departureTime: "17:05", arrivalDate: "31 Dec 2026", arrivalTime: "08:20", coach: "A1", seat: "42", berth: "SU" },
+      { name: "Venkata Subba Rao", transport: "Train 12648", departureDate: "30 Dec 2026", departureTime: "17:05", arrivalDate: "31 Dec 2026", arrivalTime: "08:20", coach: "A1", seat: "44", berth: "UB" },
+      { name: "Venkateshachar", transport: "Train 12648", departureDate: "30 Dec 2026", departureTime: "17:05", arrivalDate: "31 Dec 2026", arrivalTime: "08:20", coach: "A1", seat: "52", berth: "SU" },
+
+      // IndiGo 6E-6063
+      { name: "Ammamma", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3D" },
+      { name: "Avva", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3C" },
+      { name: "Sudhindranath Neela", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3E" },
+      { name: "Jayasree Neela", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50", seat: "3F" },
+      { name: "Anand kakka", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Saroja kakki", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Giridhar", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Dr Monitha", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Dr Kapil", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Dr. Ankita", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Lakshmi", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Ananth", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Keerthi", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Madhu", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Sudhakar", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Sailaja Desai", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+
+      // IndiGo 6E-6466
+      { name: "Arati Shroff", transport: "IndiGo 6E-6466", departureDate: "30 Dec 2026", departureTime: "20:50", arrivalDate: "30 Dec 2026", arrivalTime: "22:45" },
+      { name: "Pradyumna Deshmukh", transport: "IndiGo 6E-6466", departureDate: "30 Dec 2026", departureTime: "20:50", arrivalDate: "30 Dec 2026", arrivalTime: "22:45" },
+
+      // Train 12615
+      { name: "Shreyas Kosigi Shroff", transport: "Train 12615", departureDate: "30 Dec 2026", departureTime: "18:45", arrivalDate: "31 Dec 2026", arrivalTime: "04:40", coach: "A2", seat: "4", berth: "UB" },
+      { name: "Swetha Shreyas", transport: "Train 12615", departureDate: "30 Dec 2026", departureTime: "18:45", arrivalDate: "31 Dec 2026", arrivalTime: "04:40", coach: "A2", seat: "3", berth: "LB" },
+      { name: "Viaansh", transport: "Train 12615", departureDate: "30 Dec 2026", departureTime: "18:45", arrivalDate: "31 Dec 2026", arrivalTime: "04:40", coach: "A2", seat: "2", berth: "UB" },
+      { name: "Vidhwath", transport: "Train 12615", departureDate: "30 Dec 2026", departureTime: "18:45", arrivalDate: "31 Dec 2026", arrivalTime: "04:40", coach: "A2", seat: "", berth: "" }
     ],
     map: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
     mapLabel: "Open Bhopal Jn map"
