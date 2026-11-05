@@ -82,8 +82,8 @@ a { color: inherit; }
 .theme-journey { --event-bg: #dbe8f5; --event-ink: #173c61; --event-border: #a8c5e3; }
 .theme-welcome { --event-bg: #e7dced; --event-ink: #40224d; --event-border: #c6add2; }
 .theme-dining { --event-bg: #f0e2c7; --event-ink: #563b1b; --event-border: #d6b884; }
-.theme-haldi { --event-bg: #f6dce5; --event-ink: #6b2945; --event-border: #e7b8c9; }
-.theme-mehendi { --event-bg: #c5d7a2; --event-ink: #253e1e; --event-border: #96b572; }
+.theme-haldi { --event-bg: #f8dce7; --event-ink: #6b2945; --event-border: #e7b8c9; }
+.theme-mehendi { --event-bg: #d6dfb8; --event-ink: #344326; --event-border: #a8b985; }
 .theme-sangeet { --event-bg: #d7c5eb; --event-ink: #371e5a; --event-border: #aa8fd0; }
 .theme-pooja { --event-bg: #f0ccc1; --event-ink: #632231; --event-border: #d89689; }
 .theme-baraat { --event-bg: #efab6b; --event-ink: #592004; --event-border: #d77832; }
@@ -127,6 +127,10 @@ footer p:not(.footer-monogram) { margin: 0; font-size: .75rem; }
 /* Event detail page */
 .event-header { border-bottom: 1px solid var(--line); }
 .event-hero { --event-bg: #f0dfbd; --event-ink: var(--ink); position: relative; isolation: isolate; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 315px); gap: 2.5rem; align-items: end; min-height: 455px; padding: clamp(4rem, 8vw, 7rem) max(1.5rem, calc((100vw - 1130px) / 2)); background: var(--event-bg); color: var(--event-ink); }
+
+/* Keep the complete event card and its detail-page hero in the selected function colours. */
+.event-hero.theme-haldi { --event-bg: #f8dce7; --event-ink: #6b2945; --event-border: #e7b8c9; }
+.event-hero.theme-mehendi { --event-bg: #d6dfb8; --event-ink: #344326; --event-border: #a8b985; }
 .event-hero::before { content: ""; position: absolute; z-index: -1; width: min(65vw, 800px); height: min(65vw, 800px); top: -420px; right: -120px; border: 1px solid currentColor; border-radius: 50%; opacity: .15; box-shadow: 0 0 0 60px transparent, 0 0 0 61px currentColor, 0 0 0 120px transparent, 0 0 0 121px currentColor; }
 .event-hero .eyebrow { color: currentColor; opacity: .75; }
 .event-theme-label { margin: .2rem 0 1rem; font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
