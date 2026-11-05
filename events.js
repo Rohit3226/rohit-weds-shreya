@@ -12,19 +12,20 @@ const weddingEvents = [
     details: [
       "<strong>Train number:</strong> 22691",
       "<strong>Boarding time:</strong> 7:10 AM",
-      "<strong>Coach number:</strong> B8",
-      "<strong>Passenger details:</strong>",
-      "Vijayalaxmi K S - 44 (L)",
-      "Balaji Rao K - 41 (L)",
-      "Venugopal Kosigi Shroff - 36 (L)",
-      "Nalini Kosigi Shroff - 33 (L)",
-      "Raghunath Kosigi Shroff - 34 (M)",
-      "Rohit Kosigi Shroff - 40 (SU)",
-      "Ritika Kosigi Shroff - 37 (M)",
-      "Abhiram K S - 43 (U)",
-      "Neeraja K S - 46 (U)",
-      "Sasikala Srivatsa - 42 (M)",
-      "Srivatsa Harohali - 45 (M)"
+      "<strong>Coach number:</strong> B8"
+    ],
+    passengers: [
+      { name: "Vijayalaxmi K S", coach: "B8", seat: "44", berth: "L" },
+      { name: "Balaji Rao K", coach: "B8", seat: "41", berth: "L" },
+      { name: "Venugopal Kosigi Shroff", coach: "B8", seat: "36", berth: "L" },
+      { name: "Nalini Kosigi Shroff", coach: "B8", seat: "33", berth: "L" },
+      { name: "Raghunath Kosigi Shroff", coach: "B8", seat: "34", berth: "M" },
+      { name: "Rohit Kosigi Shroff", coach: "B8", seat: "40", berth: "SU" },
+      { name: "Ritika Kosigi Shroff", coach: "B8", seat: "37", berth: "M" },
+      { name: "Abhiram K S", coach: "B8", seat: "43", berth: "U" },
+      { name: "Neeraja K S", coach: "B8", seat: "46", berth: "U" },
+      { name: "Sasikala Srivatsa", coach: "B8", seat: "42", berth: "M" },
+      { name: "Srivatsa Harohali", coach: "B8", seat: "45", berth: "M" }
     ],
     map: "https://maps.app.goo.gl/dSaFnCo6ekKPRaWr9",
     mapLabel: "Open Secunderabad Jn map"
@@ -314,18 +315,17 @@ const weddingEvents = [
     details: [
       "<strong>Train number:</strong> 12589",
       "<strong>Departure time:</strong> 9:00 PM",
-      "<strong>Coach numbers:</strong> A1 & A2",
-      "<strong>Passenger details:</strong>",
-      "<strong>Coach A1</strong>",
-      "<div>Sudhakar K S - 1 (L)</div>",
-      "<div>Chandrika Sudhakar - 3 (L)</div>",
-      "<strong>Coach A2</strong>",
-      "<div>Vijayalaxmi K S - 21 (L)</div>",
-      "<div>Balaji Rao K - 24 (SU)</div>",
-      "<div>Venugopal Kosigi Shroff - 27 (L)</div>",
-      "<div>Nalini Kosigi Shroff - 29 (SL)</div>",
-      "<div>Raghunath Kosigi Shroff - 22 (U)</div>",
-      "<div>Ritika Kosigi Shroff - 28 (U)</div>"
+      "<strong>Coach numbers:</strong> A1 & A2"
+    ],
+    passengers: [
+      { name: "Sudhakar K S", coach: "A1", seat: "1", berth: "L" },
+      { name: "Chandrika Sudhakar", coach: "A1", seat: "3", berth: "L" },
+      { name: "Vijayalaxmi K S", coach: "A2", seat: "21", berth: "L" },
+      { name: "Balaji Rao K", coach: "A2", seat: "24", berth: "SU" },
+      { name: "Venugopal Kosigi Shroff", coach: "A2", seat: "27", berth: "L" },
+      { name: "Nalini Kosigi Shroff", coach: "A2", seat: "29", berth: "SL" },
+      { name: "Raghunath Kosigi Shroff", coach: "A2", seat: "22", berth: "U" },
+      { name: "Ritika Kosigi Shroff", coach: "A2", seat: "28", berth: "U" }
     ],
     map: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
     mapLabel: "Open Bhopal Jn map"

@@ -13,6 +13,55 @@
       </a>`;
   };
 
+
+  const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (character) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[character]);
+
+  const passengerTableMarkup = (passengers) => {
+    if (!Array.isArray(passengers) || passengers.length === 0) return "";
+
+    const coaches = [...new Set(passengers.map((passenger) => passenger.coach))];
+
+    return `
+      <section class="passenger-section" aria-labelledby="passenger-heading">
+        <h3 class="passenger-heading" id="passenger-heading">Passenger Details</h3>
+        ${coaches.map((coach) => {
+          const coachPassengers = passengers.filter((passenger) => passenger.coach === coach);
+          return `
+            <div class="passenger-coach">
+              <h4>Coach ${escapeHTML(coach)}</h4>
+              <div class="passenger-table-wrapper">
+                <table class="passenger-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Passenger Name</th>
+                      <th scope="col">Seat No.</th>
+                      <th scope="col">Berth</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${coachPassengers.map((passenger) => `
+                      <tr>
+                        <td>${escapeHTML(passenger.name)}</td>
+                        <td>${escapeHTML(passenger.seat)}</td>
+                        <td>${escapeHTML(passenger.berth)}</td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          `;
+        }).join("")}
+      </section>
+    `;
+  };
+
   const journeyList = document.querySelector("#journey-list");
   if (journeyList) {
     const days = [...new Set(weddingEvents.map((event) => event.day))];
@@ -71,7 +120,7 @@
       document.title = `${event.title} | Rohit & Shreya`;
       const map = event.map
         ? `<a class="button button-outline" href="${event.map}" target="_blank" rel="noopener">${event.mapLabel} <span aria-hidden="true">↗</span></a>`
-        : `<span class="status-pill large">${event.venue}</span>`;
+        : `<span class="status-pill large">Exact venue map to be announced</span>`;
       eventContent.innerHTML = `
         <section class="event-hero theme-${event.category}">
           <div class="event-hero-art" aria-hidden="true">${theme.symbol}</div>
@@ -88,12 +137,13 @@
             <p class="eyebrow">At a glance</p>
             <h2>Everything you need for this moment</h2>
             <ul class="detail-list">${event.details.map((detail) => `<li>${detail}</li>`).join("")}</ul>
+            ${passengerTableMarkup(event.passengers)}
             <div class="detail-actions">${map}</div>
           </div>
           <aside class="help-panel">
             <p class="eyebrow">Need a hand?</p>
             <h3>We are only a call away.</h3>
-            <p>For any questions about the wedding schedule, venues, events or travel.</p>
+            <p>For travel questions or event-day assistance, contact Raghunath.</p>
             <a href="tel:+919866581502">Call Raghunath · +91 98665 81502</a>
           </aside>
         </section>`;
