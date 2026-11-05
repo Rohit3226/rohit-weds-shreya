@@ -56,12 +56,13 @@ const weddingEvents = [
     title: "Welcome to Bhopal",
     venue: "Bhopal Jn Railway Station",
     category: "journey",
-    summary: "Train 22691 reaches Bhopal Jn at 8:55 PM. Rooms will be ready for check-in from 9:00 PM",
-    details: [
-      "<strong>Arrival station:</strong> Bhopal Jn",
-      "<strong>Arrival time:</strong> 8:55 PM",
-      "<strong>Rooms check-in:</strong> from 9:00 PM",
-      "<strong>Resort details:</strong> Fortune Resort & Gardens"
+    summary: "Train 22691 reaches Bhopal Jn at 8:55 PM, followed by Train 20424 at 9:50 PM. Rooms will be ready for check-in from 9:00 PM",
+    details: [],
+    passengers: [
+      { name: "Shreyas Kosigi Shroff", transport: "Train 20424", departureDate: "27 Dec 2026", departureTime: "11:20", arrivalDate: "27 Dec 2026", arrivalTime: "21:50", coach: "A1", seat: "16", berth: "UB" },
+      { name: "Swetha Shreyas", transport: "Train 20424", departureDate: "27 Dec 2026", departureTime: "11:20", arrivalDate: "27 Dec 2026", arrivalTime: "21:50", coach: "A1", seat: "15", berth: "LB" },
+      { name: "Viaansh", transport: "Train 20424", departureDate: "27 Dec 2026", departureTime: "11:20", arrivalDate: "27 Dec 2026", arrivalTime: "21:50", coach: "A1", seat: "14", berth: "UB" },
+      { name: "Vidhwath", transport: "Train 20424", departureDate: "27 Dec 2026", departureTime: "11:20", arrivalDate: "27 Dec 2026", arrivalTime: "21:50", coach: "A1" }
     ],
     map: "https://maps.app.goo.gl/MjPHqGioGqBx4mKu5",
     mapLabel: "Open Bhopal Jn map"
