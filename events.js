@@ -77,13 +77,371 @@ const weddingEvents = [
     details: [
       "<strong>Resort Name:</strong> Fortune Resort & Gardens",
       "<strong>Address:</strong> Bairagarh Kalan, Bairagarh, Bhopal – 462030, Madhya Pradesh",
-      "<strong>Room allocation:</strong> Rooms 201–220 on the 2nd floor and 301–320 on the 3rd floor. Guest-wise allocation is listed below.",
+      "<strong>Room allocation:</strong> Rooms 201–220 on the 2nd floor and 301–320 on the 3rd floor. Guest-wise allocation and provisional check-in/check-out timings are listed below.",
       "<strong>Reception desk details:</strong> To be announced"
     ],
-    roomFloors: [
-      { floor: "2nd Floor", start: 201, end: 220 },
-      { floor: "3rd Floor", start: 301, end: 320 }
-    ],
+    roomAllocations: [
+      {
+            "floor": "2nd Floor",
+            "roomNo": 201,
+            "guest": "Sudhindranath Neela",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 202,
+            "guest": "Ananth & Madhu Kosigi",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 203,
+            "guest": "Aachars - Venkata Subba Rao & Venkateshachar",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 204,
+            "guest": "Shreyas & Swetha",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 205,
+            "guest": "Arati & Sreehari",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 206,
+            "guest": "Sudhakar & Chandrika",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 207,
+            "guest": "Jayasree & MIL",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 208,
+            "guest": "Vijayakka & Balaji Rao",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 209,
+            "guest": "Ammamma & Caretaker",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 210,
+            "guest": "Raghunath, Ritika",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 211,
+            "guest": "Rohit",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 212,
+            "guest": "Venugopal & Nalini",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 213,
+            "guest": "Anand kakka & Saroj Kakki",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 214,
+            "guest": "Renuka & Venkat",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 215,
+            "guest": "Vatsa & Sasikala",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 216,
+            "guest": "Ritika's colleagues",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 217,
+            "guest": "Ritika's colleagues",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 218,
+            "guest": "Ritika's friends",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 219,
+            "guest": "Ritika's friends",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
+            "roomNo": 220,
+            "guest": "Sunder Koppale & Madhu",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 301,
+            "guest": "",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 302,
+            "guest": "Parlour and Anchor",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 303,
+            "guest": "Lakshmi & Keerthi",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 304,
+            "guest": "Sudhir & Jayasri",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 305,
+            "guest": "Madhu & Sudhakar",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 306,
+            "guest": "Sailu & Sudhakar",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 307,
+            "guest": "Neeraja & Abhiram",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 308,
+            "guest": "Raja & Family",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 309,
+            "guest": "Kapil & Family",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 310,
+            "guest": "Yasaswi & Monitha",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 311,
+            "guest": "Rohit's friends",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 312,
+            "guest": "Rohit's friends",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 313,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 314,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 315,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 316,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 317,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 318,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 319,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "3rd Floor",
+            "roomNo": 320,
+            "guest": "TBD",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      }
+],
     map: "https://maps.app.goo.gl/9rPVQdmpCpWCATGD6",
     mapLabel: "Open Fortune Resort & Gardens map"
   },
