@@ -77,8 +77,7 @@ const weddingEvents = [
     details: [
       "<strong>Resort Name:</strong> Fortune Resort & Gardens",
       "<strong>Address:</strong> Bairagarh Kalan, Bairagarh, Bhopal – 462030, Madhya Pradesh",
-      "<strong>Room allocation:</strong> Rooms 201–220 on the 2nd floor and 301–320 on the 3rd floor. Guest-wise allocation and provisional check-in/check-out timings are listed below.",
-      "<strong>Reception desk details:</strong> To be announced"
+      "<strong>Room allocation:</strong> Rooms 201–220 on the 2nd floor and 301–320 on the 3rd floor. Guest-wise allocation and provisional check-in/check-out timings are listed below."
     ],
     roomAllocations: [
       {
@@ -455,7 +454,7 @@ const weddingEvents = [
     category: "dining",
     summary: "A relaxed breakfast before the festivities begin",
     details: [
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Dress code:</strong> Casual Dress",
       "<strong>Please arrive on time so the day can begin together</strong>"
     ],
   },
@@ -469,8 +468,8 @@ const weddingEvents = [
     category: "haldi",
     summary: "Sunshine, laughter, and a joyful splash of haldi by the pool",
     details: [
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Light blue, Pastel pink, Lemon yellow, Lavender",
+      "<strong>Dress code:</strong> PASTEL PINK - Soft, elegant, and dreamy! Let's paint the Haldi celebrations in beautiful shades of pastel pink! 🩷",
       "<strong>Event/ Program details:</strong> To be announced"
     ],
   },
@@ -484,7 +483,7 @@ const weddingEvents = [
     category: "dining",
     summary: "A delicious break between the day's celebrations",
     details: [
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Dress code:</strong> Casual Dress",
       "<strong>Please arrive on time</strong>"
     ],
   },
@@ -498,8 +497,8 @@ const weddingEvents = [
     category: "mehendi",
     summary: "An afternoon of intricate henna, music, and warm conversations",
     details: [
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Multicolour",
+      "<strong>Dress code:</strong> OLIVE GREEN - Let's bring some earthy elegance and festive vibes with gorgeous olive green outfits! 💚",
       "<strong>Event/ Program details:</strong> To be announced"
     ],
   },
@@ -514,8 +513,8 @@ const weddingEvents = [
     summary: "An evening of music, dance, celebration, and dinner under glittering lights",
     details: [
       "<strong>Dinner will be served during the Sangeet function</strong>",
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Dark coloured",
+      "<strong>Dress code:</strong> DARK COLOURS & SHIMMER - Time to shine on the dance floor! 💃🪩 Think rich, dark colours, glitter, sequins, shimmer, and all things glamorous! 🌟",
       "<strong>Event/ Performance details:</strong> To be announced"
     ],
   },
@@ -529,7 +528,7 @@ const weddingEvents = [
     category: "dining",
     summary: "Begin the second day of celebrations over breakfast",
     details: [
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Dress code:</strong> Casual dress",
       "<strong>Please arrive on time</strong>"
     ],
   },
@@ -543,8 +542,8 @@ const weddingEvents = [
     category: "pooja",
     summary: "A meaningful ceremony bringing both families together",
     details: [
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Regular theme",
+      "<strong>Dress code:</strong> OFFICE DRESS",
       "<strong>Event/ Program details:</strong> To be announced"
     ],
   },
@@ -558,7 +557,7 @@ const weddingEvents = [
     category: "dining",
     summary: "Let's enjoy a delicious afternoon before the evening celebrations begin",
     details: [
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Dress code:</strong> Casual dress",
       "<strong>Please arrive on time</strong>"
     ],
   },
@@ -572,8 +571,8 @@ const weddingEvents = [
     category: "baraat",
     summary: "The celebration unfolds in a vibrant symphony of music, colour, laughter, and unforgettable moments",
     details: [
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Bright coloured",
+      "<strong>Dress code:</strong> NORTH INDIAN TRADITIONAL - Let's bring out the royal desi vibes with stunning lehengas, sherwanis, sarees, anarkalis, and other traditional North Indian outfits! ❤️",
       "<strong>Event/ Program details:</strong> To be announced"
     ],
   },
@@ -588,8 +587,8 @@ const weddingEvents = [
     summary: "An open-air evening celebrating the togetherness of Rohit and Shreya, followed by a delightful dinner",
     details: [
       "<strong>Dinner will be served during the reception function</strong>",
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Bright coloured",
+      "<strong>Dress code:</strong> NORTH INDIAN TRADITIONAL - Let's bring out the royal desi vibes with stunning lehengas, sherwanis, sarees, anarkalis, and other traditional North Indian outfits! ❤️",
       "<strong>Event/ Program details:</strong> To be announced"
     ],
   },
@@ -603,8 +602,8 @@ const weddingEvents = [
     category: "pooja",
     summary: "The wedding day begins with cherished rituals and blessings",
     details: [
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Traditional theme",
+      "<strong>Dress code:</strong> Traditional South Indian",
       "<strong>Event/ Program details:</strong> To be announced",
       "<strong>Please arrive a few minutes early for the rituals</strong>"
     ],
@@ -620,7 +619,7 @@ const weddingEvents = [
     summary: "The auspicious moment when Rohit and Shreya begin their new chapter together",
     details: [
       "<strong>Muhurtam:</strong> 7:55 AM IST",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Dress code:</strong> SOUTH INDIAN TRADITIONAL - Let's embrace the beauty of South Indian traditions with elegant silk sarees, traditional dhotis, veshtis, and other classic South Indian attire! 🧡",
       "<strong>Event/ Program details:</strong> To be announced",
       "<strong>Please be seated before the ceremony begins</strong>"
     ],
@@ -635,7 +634,7 @@ const weddingEvents = [
     category: "dining",
     summary: "Take a moment to relax and enjoy a delightful breakfast before the celebrations continue",
     details: [
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Dress code:</strong> continuing from the previous event",
       "<strong>Please arrive on time</strong>"
     ],
   },
@@ -649,8 +648,8 @@ const weddingEvents = [
     category: "pooja",
     summary: "A beautiful morning where sacred traditions, heartfelt blessings, and the promise of forever come together",
     details: [
-      "<strong>Event theme:</strong> To be announced",
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Event theme:</strong> Traditional theme",
+      "<strong>Dress code:</strong> South Indian Traditional",
       "<strong>Event/ Program details:</strong> To be announced"
     ],
   },
@@ -664,7 +663,7 @@ const weddingEvents = [
     category: "dining",
     summary: "A delightful farewell meal before check-out and the journey home",
     details: [
-      "<strong>Dress code:</strong> To be announced",
+      "<strong>Dress code:</strong> Casual dress",
       "<strong>Please arrive on time</strong>"
     ],
   },
