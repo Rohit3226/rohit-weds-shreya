@@ -493,7 +493,7 @@ const weddingEvents = [
     date: "Monday, 28 December 2026",
     time: "3:00 PM",
     title: "Mehendi Ceremony",
-    venue: "Pool side",
+    venue: "Banquet hall",
     category: "mehendi",
     summary: "An afternoon of intricate henna, music, and warm conversations",
     details: [
@@ -613,7 +613,7 @@ const weddingEvents = [
     day: "30 Dec",
     date: "Wednesday, 30 December 2026",
     time: "7:55 AM",
-    title: "Jeelakara Bellam Muhurtam",
+    title: "Sumuhurtam",
     venue: "Marriage banquet hall",
     category: "muhurtam",
     summary: "The auspicious moment when Rohit and Shreya begin their new chapter together",
