@@ -537,7 +537,7 @@ const weddingEvents = [
     day: "29 Dec",
     date: "Tuesday, 29 December 2026",
     time: "10:30 AM",
-    title: "Varapooja / Phal Daan",
+    title: "Edurukolu/ Varapooja / Phal Daan",
     venue: "Banquet hall",
     category: "pooja",
     summary: "A meaningful ceremony bringing both families together",
