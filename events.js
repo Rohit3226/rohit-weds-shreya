@@ -726,7 +726,7 @@ const weddingEvents = [
       { name: "Keerthi", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
       { name: "Madhu", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
       { name: "Sudhakar", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
-      { name: "Sailaja Desai", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
+      { name: "Sailaja Desai", transport: "IndiGo", departureDate: "30 Dec 2026", departureTime: "", arrivalDate: "30 Dec 2026", arrivalTime: "" },
 
       // IndiGo 6E-6466
       { name: "Arati Shroff", transport: "IndiGo 6E-6466", departureDate: "30 Dec 2026", departureTime: "20:50", arrivalDate: "30 Dec 2026", arrivalTime: "22:45" },
