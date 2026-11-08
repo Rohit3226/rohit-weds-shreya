@@ -181,7 +181,7 @@
           <aside class="help-panel">
             <p class="eyebrow">Need a hand?</p>
             <h3>We are only a call away.</h3>
-            <p>For travel questions or event-day assistance, contact Raghunath.</p>
+            <p>${event.category === "journey" ? "For travel questions or event-day assistance, contact Raghunath." : "For any assistance, contact Raghunath."}</p>
             <a href="tel:+919866581502">Call Raghunath · +91 98665 81502</a>
           </aside>
         </section>`;
