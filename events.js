@@ -47,7 +47,7 @@ const weddingEvents = [
       { name: "Sudhakar", transport: "IndiGo 6E-6062", departureDate: "28 Dec 2026", departureTime: "15:25", arrivalDate: "28 Dec 2026", arrivalTime: "16:45" },
       { name: "Venkata Subba Rao", transport: "Train 12707", departureDate: "28 Dec 2026", departureTime: "16:30", arrivalDate: "29 Dec 2026", arrivalTime: "08:15", coach: "B2", seat: "63", berth: "SL" },
       { name: "Venkateshachar", transport: "Train 12707", departureDate: "28 Dec 2026", departureTime: "16:30", arrivalDate: "29 Dec 2026", arrivalTime: "08:15", coach: "B2", seat: "64", berth: "SU" },
-      { name: "Sailaja Desai", transport: "IndiGo 6E-5172", departureDate: "29 Dec 2026", departureTime: "07:10", arrivalDate: "29 Dec 2026", arrivalTime: "08:40" }
+      { name: "Dr. Sailaja Desai", transport: "IndiGo 6E-5172", departureDate: "29 Dec 2026", departureTime: "07:10", arrivalDate: "29 Dec 2026", arrivalTime: "08:40" }
     ],
     map: "https://maps.app.goo.gl/dSaFnCo6ekKPRaWr9",
     mapLabel: "Open Secunderabad Jn map"
@@ -726,7 +726,7 @@ const weddingEvents = [
       { name: "Keerthi", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
       { name: "Madhu", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
       { name: "Sudhakar", transport: "IndiGo 6E-6063", departureDate: "30 Dec 2026", departureTime: "17:25", arrivalDate: "30 Dec 2026", arrivalTime: "18:50" },
-      { name: "Sailaja Desai", transport: "IndiGo", departureDate: "30 Dec 2026", departureTime: "", arrivalDate: "30 Dec 2026", arrivalTime: "" },
+      { name: "Dr. Sailaja Desai", transport: "IndiGo", departureDate: "30 Dec 2026", departureTime: "", arrivalDate: "30 Dec 2026", arrivalTime: "" },
 
       // IndiGo 6E-6466
       { name: "Arati Shroff", transport: "IndiGo 6E-6466", departureDate: "30 Dec 2026", departureTime: "20:50", arrivalDate: "30 Dec 2026", arrivalTime: "22:45" },
