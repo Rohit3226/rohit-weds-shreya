@@ -182,7 +182,7 @@ const weddingEvents = [
       {
             "floor": "2nd Floor",
             "roomNo": 212,
-            "guest": "",
+            "guest": "Krishna's male friends",
             "checkInDate": "27 Dec 2026",
             "checkInTime": "21:00",
             "checkOutDate": "30 Dec 2026",
@@ -191,7 +191,7 @@ const weddingEvents = [
       {
             "floor": "2nd Floor",
             "roomNo": 213,
-            "guest": "",
+            "guest": "Krishna's female friends",
             "checkInDate": "27 Dec 2026",
             "checkInTime": "21:00",
             "checkOutDate": "30 Dec 2026",
@@ -209,7 +209,7 @@ const weddingEvents = [
       {
             "floor": "2nd Floor",
             "roomNo": 215,
-            "guest": "",
+            "guest": "Sanjay Kushwaha",
             "checkInDate": "27 Dec 2026",
             "checkInTime": "21:00",
             "checkOutDate": "30 Dec 2026",
