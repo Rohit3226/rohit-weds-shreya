@@ -200,7 +200,7 @@ const weddingEvents = [
       {
             "floor": "2nd Floor",
             "roomNo": 214,
-            "guest": "",
+            "guest": "Nandini, Nandini, Rasagna",
             "checkInDate": "27 Dec 2026",
             "checkInTime": "21:00",
             "checkOutDate": "30 Dec 2026",
@@ -209,15 +209,6 @@ const weddingEvents = [
       {
             "floor": "2nd Floor",
             "roomNo": 215,
-            "guest": "Sanjay Kushwaha",
-            "checkInDate": "27 Dec 2026",
-            "checkInTime": "21:00",
-            "checkOutDate": "30 Dec 2026",
-            "checkOutTime": "16:00"
-      },
-      {
-            "floor": "2nd Floor",
-            "roomNo": 216,
             "guest": "Sarath, Yougesh, Sai",
             "checkInDate": "27 Dec 2026",
             "checkInTime": "21:00",
@@ -226,8 +217,17 @@ const weddingEvents = [
       },
       {
             "floor": "2nd Floor",
+            "roomNo": 216,
+            "guest": "Sanjay Kushwaha, Amit Hedge",
+            "checkInDate": "27 Dec 2026",
+            "checkInTime": "21:00",
+            "checkOutDate": "30 Dec 2026",
+            "checkOutTime": "16:00"
+      },
+      {
+            "floor": "2nd Floor",
             "roomNo": 217,
-            "guest": "Nandini, Nandini, Rasagna",
+            "guest": "Nakul, Harsh, Ritik",
             "checkInDate": "27 Dec 2026",
             "checkInTime": "21:00",
             "checkOutDate": "30 Dec 2026",
@@ -245,7 +245,7 @@ const weddingEvents = [
       {
             "floor": "2nd Floor",
             "roomNo": 219,
-            "guest": "Nakul, Harsh, Amit, Ritik",
+            "guest": "",
             "checkInDate": "27 Dec 2026",
             "checkInTime": "21:00",
             "checkOutDate": "30 Dec 2026",
